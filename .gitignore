@@ -1,0 +1,14 @@
+.gradle
+.idea/
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+
+**/*/node_modules/*
+**/*/npm-debug.log
+app-release-unsigned.apk
+mypodcasts-api-stub
+**/*.iml

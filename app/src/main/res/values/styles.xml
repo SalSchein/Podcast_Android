@@ -1,0 +1,45 @@
+<resources>
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/primary</item>
+    <item name="colorPrimaryDark">@color/primary_dark</item>
+    <item name="android:statusBarColor">@color/primary_dark</item>
+  </style>
+
+  <style name="EpisodeList">
+    <item name="android:divider">@color/divider</item>
+    <item name="android:dividerHeight">2dp</item>
+  </style>
+
+  <style name="EpisodeTitle">
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">match_parent</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">16sp</item>
+  </style>
+
+  <style name="EpisodeDescription">
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">match_parent</item>
+    <item name="android:textSize">14sp</item>
+    <item name="android:ellipsize">end</item>
+    <item name="android:maxLines">3</item>
+  </style>
+
+  <style name="EpisodeLength">
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">match_parent</item>
+    <item name="android:textSize">12sp</item>
+  </style>
+
+  <style name="EpisodePublishedDate">
+    <item name="android:textSize">12sp</item>
+  </style>
+
+  <style name="EpisodeDuration">
+    <item name="android:textSize">12sp</item>
+    <item name="android:gravity">center_vertical</item>
+  </style>
+</resources>
